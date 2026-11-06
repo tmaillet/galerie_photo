@@ -8,5 +8,8 @@ Site de gestion de galeries photo (Symfony + Docker).
 - Publication ordonnée dans une galerie publique
 - Espace administrateur (suppression / déblocage de comptes)
 
+## Prérequis
+- Docker et Docker Compose
+
 ## Lancement
-docker compose up -d
+À compléter une fois l'environnement Docker en place.
