@@ -7,3 +7,6 @@ Site de gestion de galeries photo (Symfony + Docker).
 - Upload de photos (JPEG/PNG, 5 Mo max)
 - Publication ordonnée dans une galerie publique
 - Espace administrateur (suppression / déblocage de comptes)
+
+## Lancement
+docker compose up -d
