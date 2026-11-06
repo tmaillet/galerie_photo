@@ -12,4 +12,12 @@ Site de gestion de galeries photo (Symfony + Docker).
 - Docker et Docker Compose
 
 ## Lancement
-À compléter une fois l'environnement Docker en place.
+docker compose up -d --build
+
+- Site : http://localhost:8080
+- Mailpit (e-mails de test) : http://localhost:8025
+
+Commandes Symfony :
+
+docker compose exec php php bin/console <commande>
+docker compose exec php composer <commande>
